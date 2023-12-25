@@ -69,7 +69,10 @@
 #define ME 0 //己方
 #define YOU 1 //对方
 #define EOL 10 //End of List
-#define HOL 11 //Head of List设置窗口句柄
+#define HOL 11 //Head of List
+```
+#### 设置窗口句柄
+```C
 /*设置窗口句柄*/
 int changeHwnd() {
     HWND hnd = GetHWnd();
